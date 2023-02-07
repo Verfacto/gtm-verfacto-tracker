@@ -1,5 +1,5 @@
 homepage: "https://www.verfacto.com"
 documentation: "https://github.com/Verfacto/gtm-verfacto-tracker#readme"
 versions:
-  - sha: 408a4625569e8cd801025adf4e55b786fb69162e
+  - sha: e2fffd01099e980825ed835508ba1b87fb04ba78
     changeNotes: Initial release.
