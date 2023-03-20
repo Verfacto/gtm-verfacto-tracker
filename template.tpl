@@ -33,12 +33,12 @@ ___TEMPLATE_PARAMETERS___
   {
     "type": "TEXT",
     "name": "trackingId",
-    "displayName": "Tracking code",
+    "displayName": "Tracking id",
     "simpleValueType": true,
     "valueValidators": [
       {
         "type": "NON_EMPTY",
-        "errorMessage": "Please provide tracking code.",
+        "errorMessage": "Please provide tracking id.",
         "enablingConditions": []
       },
       {
@@ -46,10 +46,10 @@ ___TEMPLATE_PARAMETERS___
         "args": [
           "^(?:V[A|F]-[\\d|\\w]+)"
         ],
-        "errorMessage": "Please provide correct tracking code. Expected format is VF-XXXXXX."
+        "errorMessage": "Please provide correct tracking id. Expected format is VF-XXXXXX."
       }
     ],
-    "help": "The unique tracking code can be found in your Verfacto account > Settings > Integrations > Website/App tracking.",
+    "help": "The unique tracking id can be found in your Verfacto account > Settings > Integrations > Website/App tracking.",
     "valueHint": "VF-XXXXXX"
   }
 ]
