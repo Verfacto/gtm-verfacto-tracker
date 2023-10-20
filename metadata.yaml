@@ -1,5 +1,9 @@
 homepage: "https://www.verfacto.com"
 documentation: "https://github.com/Verfacto/gtm-verfacto-tracker#readme"
 versions:
+  # Latest version
+  - sha: aa64b37db464e6fdb883851a03609ea0f62bdd2d
+    changeNotes: Add URL parameter encoding
+  # Older versions
   - sha: e2fffd01099e980825ed835508ba1b87fb04ba78
     changeNotes: Initial release.
