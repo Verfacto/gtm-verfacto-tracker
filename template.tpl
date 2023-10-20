@@ -59,10 +59,12 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const injectScript = require("injectScript");
 const copyFromWindow = require("copyFromWindow");
+const encodeUriComponent = require("encodeUriComponent");
 
 const trackingId = data.trackingId;
 
-const url = "https://analytics.verfacto.com/distributor.js?trackerID=" + trackingId + "&platform=Custom";
+const urlParams = encodeUriComponent("trackerID=" + trackingId + "&platform=Custom");
+const url = "https://analytics.verfacto.com/distributor.js?" + urlParams;
 
 const VerfactoTracker = copyFromWindow("VerfactoTracker");
 
